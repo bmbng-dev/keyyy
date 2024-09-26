@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+#wordContainer {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#inputWord {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#startButton:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
